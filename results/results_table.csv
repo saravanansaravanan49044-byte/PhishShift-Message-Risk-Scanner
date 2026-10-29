@@ -1,0 +1,4 @@
+model,random_f1,random_roc_auc,random_fpr,campaign_precision,campaign_recall,campaign_f1,campaign_roc_auc,campaign_fpr,campaign_tn,campaign_fp,campaign_fn,campaign_tp,fpr_legit_urgent,perturbed_f1,mean_abs_prob_drift,abstain_rate,accuracy_on_non_abstained
+rules,1.0,1.0,0.0,0.75,0.6,0.667,0.596,0.571,3,4,8,12,0.571,0.588,0.031,0.296,0.579
+tfidf_lr,1.0,1.0,0.0,0.944,0.85,0.895,0.943,0.143,6,1,3,17,0.143,0.865,0.007,0.741,1.0
+char_svm,1.0,1.0,0.0,0.87,1.0,0.93,0.979,0.429,4,3,0,20,0.429,0.93,0.006,0.37,1.0

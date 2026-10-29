@@ -1,0 +1,4 @@
+campaign_group,n,mean_prob,flag_rate
+C5_ceo_soft_ask,4.0,0.658,0.75
+C6_shared_doc_lure,16.0,0.591,0.875
+L4_legit_urgent,7.0,0.429,0.143

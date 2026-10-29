@@ -1,0 +1,3 @@
+source_id,description,generator,license,rows_raw,contains_pii,urls_live,date_created
+SYN-V1,Locally authored phishing & benign simulation templates (C1-C6 phishing; L1-L4 legitimate),src/generate_data.py seed=7,CC0 (team-authored),432,no,no (all defanged),2026-10
+MENTOR-VAR,Mentor-assigned unseen campaign + legitimate business set (add here when received),mentor,per mentor,TBD,must be no,must be no,TBD

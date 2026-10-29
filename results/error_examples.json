@@ -1,0 +1,152 @@
+[
+  {
+    "type": "missed_phishing",
+    "message_id": "M0218",
+    "campaign": "C6_shared_doc_lure",
+    "prob": 0.441,
+    "text": "New voicemail (0:42) from IT Support . Listen online: hxxps://expenseupdate[ .]info",
+    "explanation": {
+      "rule_cues": {
+        "link_present": [
+          "hxxps://"
+        ]
+      },
+      "model_terms": [
+        {
+          "term": "new",
+          "weight": -0.209
+        },
+        {
+          "term": "it",
+          "weight": -0.184
+        },
+        {
+          "term": "it support",
+          "weight": -0.184
+        },
+        {
+          "term": "support",
+          "weight": -0.145
+        },
+        {
+          "term": "from",
+          "weight": -0.101
+        }
+      ]
+    }
+  },
+  {
+    "type": "missed_phishing",
+    "message_id": "M0172",
+    "campaign": "C5_ceo_soft_ask",
+    "prob": 0.468,
+    "text": "Ravi, quick one - can you pick up a few store cards for a client thank-you? I'll reimburse. Keep it between us for now. ",
+    "explanation": {
+      "rule_cues": {
+        "urgency": [
+          "now"
+        ],
+        "money_or_reward": [
+          "reimburse",
+          "store cards"
+        ],
+        "secrecy_or_pressure": [
+          "between us"
+        ]
+      },
+      "model_terms": [
+        {
+          "term": "it",
+          "weight": -0.213
+        },
+        {
+          "term": "for",
+          "weight": -0.198
+        },
+        {
+          "term": "can",
+          "weight": -0.116
+        },
+        {
+          "term": "can you",
+          "weight": -0.116
+        },
+        {
+          "term": "you",
+          "weight": 0.09
+        }
+      ]
+    }
+  },
+  {
+    "type": "missed_phishing",
+    "message_id": "M0213",
+    "campaign": "C6_shared_doc_lure",
+    "prob": 0.478,
+    "text": "New voicemail (0:42) from Security Office . Listen online: t[ .]co/pjq3cw",
+    "explanation": {
+      "rule_cues": {},
+      "model_terms": [
+        {
+          "term": "new",
+          "weight": -0.263
+        },
+        {
+          "term": "office",
+          "weight": -0.138
+        },
+        {
+          "term": "security",
+          "weight": -0.138
+        },
+        {
+          "term": "security office",
+          "weight": -0.138
+        },
+        {
+          "term": "from",
+          "weight": -0.126
+        }
+      ]
+    }
+  },
+  {
+    "type": "flagged_legitimate",
+    "message_id": "M0415",
+    "campaign": "L4_legit_urgent",
+    "prob": 0.528,
+    "text": "Your payroll portal password expires in 5 days. Change it from the Settings page you normally use. IT will never ask for your password by email.",
+    "explanation": {
+      "rule_cues": {
+        "urgency": [
+          "expires"
+        ],
+        "credential_request": [
+          "password"
+        ]
+      },
+      "model_terms": [
+        {
+          "term": "it",
+          "weight": -0.255
+        },
+        {
+          "term": "the",
+          "weight": -0.162
+        },
+        {
+          "term": "your",
+          "weight": 0.158
+        },
+        {
+          "term": "in",
+          "weight": -0.147
+        },
+        {
+          "term": "password",
+          "weight": 0.131
+        }
+      ]
+    }
+  }
+]
